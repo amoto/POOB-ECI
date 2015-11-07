@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ tercerClickCelulas()
+comment1.params=
+comment1.target=void\ tercerClickCelulasIzquierdozas()
+comment2.params=
+comment2.target=void\ tercerClickCelulasPobladoras()
+comment3.params=
+comment3.target=void\ tercerClickCelulasNecias()
+comment4.params=
+comment4.target=void\ sextoClickCelulasKamikaze()
+comment5.params=
+comment5.target=void\ sextoClickCelulasConway()
+numComments=6

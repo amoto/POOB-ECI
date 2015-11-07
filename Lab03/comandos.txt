@@ -1,0 +1,20 @@
+compilar con junit (teniendo junit-4.0.jar en la carpeta del proyecto)
+javac -cp bin/:junit-4.0.jar -sourcepath src -d bin/ src/*/*.java
+
+ejecutar
+java -cp bin/ presentacion.nombre_clase_ejecutiva
+
+correr unittest
+java -cp bin/:junit-4.0.jar org.junit.runner.JUnitCore pruebas.nombre_prueba
+
+generar documentacion
+javadoc -classpath bin/ -sourcepath src/ src/*/*.java
+
+generar jar
+1. Crear el manifiesto Manifest.mf que contenga lo siguiente:
+	Main-Class: presentacion.nombre_clase_ejecutiva
+	Sealed: true
+2. jar -cvmf Manifest.mf automata.jar aplicacion/*.class presentacion/*.class 
+
+ejecutar jar
+java -jar nombre_del_archivo.jar

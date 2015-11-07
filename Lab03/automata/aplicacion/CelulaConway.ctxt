@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=ac\ fila\ columna
+comment0.target=CelulaConway(AutomataCelular,\ int,\ int)
+comment0.text=\r\n\ crea\ una\ celula\ conway\ en\ el\ automata\ dado,\ en\ la\ posicion\ dada.\r\n\ @param\ ac\ automata\ celular\ en\ el\ que\ se\ va\ a\ ubicar\ la\ nueva\ c\u00E9lula\r\n\ @param\ fila\ fila\ en\ el\ automata\ celular\r\n\ @param\ columna\ columna\ en\ el\ automata\ celula\r\n
+comment1.params=f\ c
+comment1.target=int\ cuenteVivas(int,\ int)
+comment1.text=\r\n\ cuenta\ las\ celulas\ vivas\ adyacentes,\ de\ una\ posicion\ dada\ del\ automata\r\n\r\n\ @param\ \ f,\ es\ la\ fila\ dada\ del\ automata\r\n\ @param\ \ c,\ es\ la\ columna\ dada\ del\ automata\r\n\ @return\ \ \ el\ numero\ de\ celulas\ vivas\r\n
+comment2.params=
+comment2.target=void\ revivir()
+comment2.text=\r\n\ determina\ si\ esta\ celula\ debe\ revivir\r\n
+comment3.params=
+comment3.target=void\ vecinas()
+comment3.text=\r\n\ decide\ si\ esta\ celula\ debe\ mantenerse\ viva\r\n
+comment4.params=
+comment4.target=void\ muerte()
+comment4.text=\r\n\ decide\ si\ esta\ celula\ muere\ o\ permanece\ muerta\r\n
+comment5.params=
+comment5.target=void\ nuevas()
+comment5.text=\r\n\ busca\ alrededor\ de\ esta\ celula,\ las\ casillas\ vacias\ para\ forma\ una\ nueva\ celula\r\n
+comment6.params=
+comment6.target=void\ decida()
+numComments=7

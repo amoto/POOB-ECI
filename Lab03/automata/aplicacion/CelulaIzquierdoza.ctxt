@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=ac\ fila\ columna
+comment0.target=CelulaIzquierdoza(AutomataCelular,\ int,\ int)
+comment0.text=\r\n\ crea\ una\ celula\ izquierdoza\ en\ el\ automata\ dado,\ en\ la\ posicion\ dada.\r\n\ @param\ ac\ automata\ celular\ en\ el\ que\ se\ va\ a\ ubicar\ la\ nueva\ c\u00E9lula\r\n\ @param\ fila\ fila\ en\ el\ automata\ celular\r\n\ @param\ columna\ columna\ en\ el\ automata\ celula\r\n
+comment1.params=
+comment1.target=void\ decida()
+numComments=2

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AutomataCelular()
+comment0.text=\r\n\ crea\ un\ automata\ celular\ vacio\r\n
+comment1.params=f\ c
+comment1.target=Celula\ getCelula(int,\ int)
+comment1.text=\r\n\ retorna\ la\ celula,\ en\ la\ posicion\ dada\ del\ automata\r\n\ @param\ \ f,\ es\ la\ fila\ dada\ del\ automata\r\n\ @param\ \ c,\ es\ la\ columna\ dada\ del\ automata\r\n\ @return\ la\ celula\ de\ la\ posicion\ dada\r\n
+comment2.params=f\ c\ nueva
+comment2.target=void\ setCelula(int,\ int,\ Celula)
+comment2.text=\r\n\ ubica\ una\ celula\ nueva\ en\ la\ posicion\ dada\r\n\ @param\ \ f,\ es\ la\ fila\ dada\ del\ automata\r\n\ @param\ \ c,\ es\ la\ columna\ dada\ del\ automata\r\n\ @param\ nueva,\ la\ celula\ a\ ubicar\ en\ la\ posicion\ dada\r\n
+comment3.params=
+comment3.target=void\ ticTac()
+comment3.text=\r\n\ hacen\ que\ realicen\ los\ cambios\ necesarios\ en\ el\ automata\ y\ sus\ celulas\ conforme\ pasa\ el\ tiempo\r\n
+numComments=4
