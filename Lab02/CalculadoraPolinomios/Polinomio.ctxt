@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.params=coeficients
+comment0.target=Polinomio(int[][])
+comment0.text=\r\n\ Construye\ un\ polinomio\ dado\ sus\ coeficientes\r\n\ \r\n\ @param\ coeficientes,\ los\ coeficientes\ del\ polinomio\r\n
+comment1.params=
+comment1.target=int\ getGrado()
+comment1.text=\r\nRetorna\ el\ grado\ del\ polinomio\r\n\r\n@return\ i,\ el\ grado\ del\ polinomio,\ es\ decir,el\ ultimo\ exponente\ con\ un\ coeficiente\ diferente\ de\ 0\r\n
+comment2.params=n
+comment2.target=Fraccionario\ getCoeficiente(int)
+comment2.text=\r\nRetorna\ el\ coeficiente\ correspondiente\ a\ x**n\r\n\r\n@param\ n,\ el\ exponente\ del\ que\ se\ desea\ conocer\ el\ coeficiente,\ 0<\=n<\=grado\ del\ polinomio\r\n@return\ el\ coeficiente\ solicitado\r\n
+comment3.params=x
+comment3.target=Fraccionario\ demeValor(int)
+comment3.text=\r\n\ Retorna\ el\ valor\ del\ polinomio\ evaluado\ en\ el\ valor\ x\r\n\ \r\n\ @param\ x,\ el\ valor\ con\ el\ que\ se\ evaluar\u00E1\ el\ polinomio\r\n\ @return\ el\ valor\ de\ evaluar\ el\ polinomio\ con\ x\r\n
+comment4.params=
+comment4.target=boolean\ esCero()
+comment4.text=\r\n\ Verifica\ si\ el\ polinomio\ es\ cero\r\n\ \r\n\ @return\ true\ si\ el\ valor\ del\ polinomio\ es\ 0,\ d.l.c.\ false\r\n
+comment5.params=p
+comment5.target=Polinomio\ sume(Polinomio)
+comment5.text=\r\n\ Calcula\ el\ resultado\ de\ sumar\ a\ <b>este</b>\ polimonio\ el\ polinomio\ <b>p</b>\r\n\ \r\n\ @param\ p,\ el\ polinomio\ con\ el\ cual\ se\ sumara\ este\r\n\ @return\ el\ polinomio\ resultante\ de\ sumar\ este\ y\ p\r\n
+comment6.params=p
+comment6.target=Polinomio\ reste(Polinomio)
+comment6.text=\r\n\ Calcula\ el\ resultado\ de\ restar\ a\ <b>este</b>\ polimonio\ el\ polinomio\ <b>p</b>\r\n\ \r\n\ @param\ p,\ el\ polinomio\ que\ se\ le\ restara\ a\ este\r\n\ @return\ el\ polinomio\ resultante\ de\ restarle\ p\ a\ este\r\n
+comment7.params=p
+comment7.target=Polinomio\ multiplique(Polinomio)
+comment7.text=\r\n\ Calcula\ el\ resultado\ de\ multiplicar\ a\ <b>este</b>\ polimonio\ con\ el\ polinomio\ <b>p</b>\r\n\ \r\n\ @param\ p,\ el\ polinomio\ que\ se\ multiplicara\ con\ este\r\n\ @return\ el\ polinomio\ resultante\ de\ multiplicar\ este\ y\ p\r\n
+comment8.params=p
+comment8.target=Polinomio\ divida(Polinomio)
+comment8.text=\r\n\ Calcula\ el\ resultado\ de\ dividir\ <b>este</b>\ polimonio\ entre\ el\ polinomio\ <b>p</b>\ \ este/p\r\n\ \r\n\ @param\ p,\ el\ polinomio\ entre\ el\ que\ se\ va\ a\ dividir\ este,\ 0<p.getGrado()<\=este.getGrado()\r\n\ @return\ el\ cociente\ de\ dividir\ este\ polinomio\ entre\ p\r\n
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\r\n\ Retorna\ la\ representacion\ como\ cadena\ de\ este\ polinomio\r\n\ \r\n\ @return\ la\ cadena\ que\ representa\ a\ este\ polinomio\r\n
+numComments=10
