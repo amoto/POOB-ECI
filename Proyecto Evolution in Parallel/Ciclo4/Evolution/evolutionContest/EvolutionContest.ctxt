@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=slow
+comment0.target=void\ simulate(boolean)
+comment0.text=\r\n\ simula\ la\ ultima\ solucion\ realizada\r\n\ \r\n\ @param\ \ slow,\ true\ si\ desea\ que\ sea\ lenta\ y\ visible\ la\ solucion,\ false\ que\ solo\ sea\ visible\ la\ solucion\ al\ finalizar\ la\ simulacion\r\n
+comment1.params=organism\ fossils
+comment1.target=java.lang.String[][]\ solve(java.lang.String,\ java.lang.String[])
+comment1.text=\r\n\ Soluciona\ el\ problema\ de\ la\ maraton\r\n\r\n\ @param\ \ organism,\ el\ organismo\ de\ la\ solucion\r\n\ @param\ \ fossils,\ el\ arreglo\ de\ fosiles\ de\ la\ solucion\r\n\ @return\ \ \ \ \ una\ matriz\ donde\ muestra\ la\ solucion\ del\ problema\r\n
+comment2.params=path1\ path2\ ans1\ ans2
+comment2.target=void\ ordenamiento(java.util.ArrayList,\ java.util.ArrayList,\ java.lang.StringBuffer,\ java.lang.StringBuffer)
+comment2.text=\r\n\ Decide\ cual\ linea\ va\ primero\ o\ va\ despues,\ de\ acuerdo\ a\ su\ longitud\ y\ orden\ lexicografico\r\n\r\n\ @param\ \ path1,\ \ \ la\ primera\ linea\ evolutiva\r\n\ @param\ \ path2,\ \ \ la\ segunda\ linea\ evolutiva\r\n\ @param\ \ ans1,\ \ \ \ la\ concatenacion\ de\ los\ elementos\ de\ path1\r\n\ @param\ \ ans2,\ \ \ \ la\ concatenacion\ de\ los\ elementos\ de\ path2\r\n
+comment3.params=p\ fosil
+comment3.target=boolean\ intento(java.util.ArrayList,\ java.lang.String)
+comment3.text=\r\n\ intenta\ ubicar\ la\ cadena\ fosil\ en\ el\ path\ p\r\n\r\n\ @param\ \ p,\ \ \ la\ linea\ evolutiva\ que\ se\ desea\ situar\ el\ fosil\r\n\ @param\ \ fosil,\ \ el\ fosil\ a\ situar\r\n\ @return\ true\ si\ lo\ pudo\ agregar,\ false\ d.l.c.\r\n
+comment4.params=s\ b
+comment4.target=boolean\ check(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ verifica\ su\ un\ fosil\ es\ evolucion\ del\ otro\r\n\r\n\ @param\ \ s,\ \ \ la\ cadena\ peque\u00F1a\r\n\ @param\ \ b,\ \ \ la\ cadena\ grande\r\n\ @return\ true\ si\ b\ es\ evolucion\ de\ s,\ false,\ d.l.c.\r\n
+numComments=5

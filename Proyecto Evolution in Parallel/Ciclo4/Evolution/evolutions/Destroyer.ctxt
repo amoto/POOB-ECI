@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=sequence
+comment0.target=Destroyer(java.lang.String)
+comment0.text=\n\ Crea\ un\ fosil\ destroyer\n\ \n\ @param\ \ sequence,\ la\ sequencia\ genetica\ del\ fosil\n
+comment1.params=path\ position\ org
+comment1.target=java.util.ArrayList\ situar(java.util.ArrayList,\ int,\ Fossil)
+comment2.params=path\ org\ pos
+comment2.target=boolean\ isAddable(java.util.ArrayList,\ Organismo,\ int)
+numComments=3

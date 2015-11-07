@@ -1,0 +1,96 @@
+Project documentation
+<---- javadoc command: ---->
+/usr/java/jdk1.8.0_31/bin/javadoc
+-sourcepath
+/home/hugoalvarez/Bluej/Proyectos/Evolution
+-source
+1.8
+-classpath
+/home/hugoalvarez/Bluej/bluej/lib/bluejcore.jar:/home/hugoalvarez/Bluej/bluej/lib/junit-4.8.2.jar:/home/hugoalvarez/Bluej/bluej/lib/userlib/pi4j-device.jar:/home/hugoalvarez/Bluej/bluej/lib/userlib/pi4j-core.jar:/home/hugoalvarez/Bluej/bluej/lib/userlib/pi4j-gpio-extension.jar:/home/hugoalvarez/Bluej/bluej/lib/userlib/pi4j-service.jar:/home/hugoalvarez/Bluej/Proyectos/Evolution
+-d
+/home/hugoalvarez/Bluej/Proyectos/Evolution/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/home/hugoalvarez/Bluej/bluej/lib/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+Evolution
+-windowtitle
+Evolution
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Circle.java
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Canvas.java
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Rectangle.java
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Triangle.java
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Fossil.java
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Evolution.java
+<---- end of javadoc command ---->
+Loading source file /home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java...
+Loading source file /home/hugoalvarez/Bluej/Proyectos/Evolution/Circle.java...
+Loading source file /home/hugoalvarez/Bluej/Proyectos/Evolution/Canvas.java...
+Loading source file /home/hugoalvarez/Bluej/Proyectos/Evolution/Rectangle.java...
+Loading source file /home/hugoalvarez/Bluej/Proyectos/Evolution/Triangle.java...
+Loading source file /home/hugoalvarez/Bluej/Proyectos/Evolution/Fossil.java...
+Loading source file /home/hugoalvarez/Bluej/Proyectos/Evolution/Evolution.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_31
+Building tree for all the packages and classes...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/Canvas.html...
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Canvas.java:16: warning - @author: is an unknown tag.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Canvas.java:16: warning - @author: is an unknown tag.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Canvas.java:16: warning - @version: is an unknown tag.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Canvas.java:116: warning - @param argument "newColour" is not a parameter name.
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/Circle.html...
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Circle.java:176: warning - @param argument "color" is not a parameter name.
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/Evolution.html...
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Evolution.java:44: warning - @param argument "sequence," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Evolution.java:136: warning - @param argument "sequence," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Evolution.java:215: warning - @param argument "first," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Evolution.java:177: warning - @param argument "fossil," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Evolution.java:177: warning - @param argument "path," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Evolution.java:177: warning - @param argument "position," is not a parameter name.
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/Fossil.html...
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Fossil.java:30: warning - @param argument "sequence," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Fossil.java:154: warning - @param argument "Fossil" is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Fossil.java:124: warning - @param argument "horizontal," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Fossil.java:124: warning - @param argument "vertical," is not a parameter name.
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/Path.html...
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java:54: warning - @param argument "fosil," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java:54: warning - @param argument "position," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java:129: warning - @param argument "l," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java:129: warning - @param argument "pos," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java:269: warning - @param argument "i," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java:164: warning - @param argument "p2," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java:196: warning - @param argument "horizontal," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java:196: warning - @param argument "vertical," is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Path.java:258: warning - @param argument "i," is not a parameter name.
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/Rectangle.html...
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Rectangle.java:155: warning - @param argument "color" is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Rectangle.java:143: warning - @param argument "newWidht" is not a parameter name.
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/Triangle.html...
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Triangle.java:151: warning - @param argument "color" is not a parameter name.
+/home/hugoalvarez/Bluej/Proyectos/Evolution/Triangle.java:139: warning - @param argument "newWidht" is not a parameter name.
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/package-frame.html...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/package-summary.html...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/package-tree.html...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/constant-values.html...
+Building index for all the packages and classes...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/overview-tree.html...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/index-all.html...
+Building index for all classes...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/allclasses-frame.html...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/allclasses-noframe.html...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/index.html...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/help-doc.html...
+Generating /home/hugoalvarez/Bluej/Proyectos/Evolution/doc/stylesheet.css...
+28 warnings

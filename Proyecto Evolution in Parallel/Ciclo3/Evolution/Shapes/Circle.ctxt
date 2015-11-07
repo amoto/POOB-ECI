@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Circle()
+comment0.text=\n\ Create\ a\ new\ circle\ at\ default\ position\ with\ default\ color.\n
+comment1.params=
+comment1.target=double\ area()
+comment1.text=\n\ calcula\ el\ area\ del\ circulo\n\ @return\ \ \ \ \ el\ area\ del\ circulo\n
+comment2.params=sign
+comment2.target=void\ zoom(char)
+comment3.params=newDiameter
+comment3.target=void\ changeSize(int)
+comment3.text=\n\ Change\ the\ size.\n\ @param\ newDiameter\ the\ new\ size\ (in\ pixels).\ Size\ must\ be\ >\=0.\n
+comment4.params=
+comment4.target=void\ draw()
+numComments=5

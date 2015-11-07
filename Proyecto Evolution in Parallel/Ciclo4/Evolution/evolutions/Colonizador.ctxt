@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=sequence
+comment0.target=Colonizador(java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Colonizador\n\ \n\ @param\ sequence,\ la\ sequencia\ genetica\ del\ fosil\n
+comment1.params=path\ org\ pos
+comment1.target=boolean\ isAddable(java.util.ArrayList,\ Organismo,\ int)
+numComments=2

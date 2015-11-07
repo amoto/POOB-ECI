@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=sequence
+comment0.target=Organismo(java.lang.String)
+comment0.text=\n\ Crea\ un\ organismo\n\ \n\ @param\ sequence,\ la\ sequencia\ genetica\ del\ fosil\n
+comment1.params=
+comment1.target=void\ presentacion()
+comment1.text=\n\ ubica\ los\ elementos\ visuales\ del\ organismo\n
+comment2.params=
+comment2.target=void\ makeVisible()
+comment3.params=
+comment3.target=void\ makeInvisible()
+comment4.params=sign
+comment4.target=void\ zoom(char)
+numComments=5

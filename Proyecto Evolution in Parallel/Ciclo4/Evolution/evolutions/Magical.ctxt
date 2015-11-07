@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=fosil
+comment0.target=Magical(java.lang.String)
+comment0.text=\n\ Crea\ un\ fosil\ Magical\n\ \n\ @param\ fosil,\ la\ cadena\ genetica\ del\ fosil\n
+comment1.params=fo1\ fo2
+comment1.target=java.lang.String\ changeBody(Fossil,\ Fossil)
+comment1.text=\n\ cambia\ la\ cadena\ evolutiva\ del\ fosil\ para\ que\ sea\ compatible\ con\ los\ dos\ fosiles\ uno\ menor\ y\ uno\ mayor\n\ \n\ @param\ \ fo1,\ el\ fosil\ menor\n\ @param\ \ fo2,\ el\ fosil\ mayor\n
+comment2.params=path\ position\ org
+comment2.target=java.util.ArrayList\ situar(java.util.ArrayList,\ int,\ Fossil)
+comment3.params=
+comment3.target=void\ cambioVisual()
+comment3.text=\n\ cambia\ la\ parte\ visual\ del\ fosil\ de\ acuerdo\ a\ la\ cadena\ genetica\ actual\ del\ fosil\n
+comment4.params=path\ org\ pos
+comment4.target=boolean\ isAddable(java.util.ArrayList,\ Organismo,\ int)
+numComments=5

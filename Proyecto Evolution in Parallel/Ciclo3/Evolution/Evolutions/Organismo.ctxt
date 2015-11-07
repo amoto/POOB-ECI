@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=sequence
+comment0.target=Organismo(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Organismo\r\n
+comment1.params=
+comment1.target=void\ presentacion()
+comment1.text=\r\n\ ubica\ los\ elementos\ visuales\ del\ organismo\r\n
+comment2.params=
+comment2.target=void\ makeVisible()
+comment2.text=\r\n\ hace\ visible\ el\ organismo\r\n
+comment3.params=
+comment3.target=void\ makeInvisible()
+comment3.text=\r\n\ hace\ invisible\ el\ organismo\r\n
+comment4.params=sign
+comment4.target=void\ zoom(char)
+comment4.text=\r\n\ acerca\ o\ aleja\ la\ vista\ del\ organizmo\r\n\r\n\ @param\ \ sign\ el\ signo\ ('+'\ o\ '-')\ que\ determina\ si\ se\ agrega\ o\ \r\n\ disminuye\ la\ unidad\ al\ diametro\r\n
+numComments=5
