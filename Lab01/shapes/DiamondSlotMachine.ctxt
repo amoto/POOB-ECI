@@ -1,0 +1,47 @@
+#BlueJ class context
+comment0.params=n\ m
+comment0.target=DiamondSlotMachine(int,\ int)
+comment0.text=\r\n\ Crea\ el\ DiamodSlotMachine\ con\ n\ maquinas,\ usando\ m\ "frutas"\r\n\ \r\n\ @param\ n>\=3,\ el\ numero\ de\ maquinas\ y\ debe\ ser\ impar\ \ \ \ 2<m<\=n+1<\=6\ el\ numero\ de\ "frutas"\ con\ las\ que\ se\ jugara\r\n
+comment1.params=
+comment1.target=void\ fill()
+comment1.text=\r\n\ Este\ metodo\ llena\ la\ matriz\ con\ las\ posiciones\ del\ juego\ con\ -1\ donde\ no\ haya\ m\u00E1quina,\ y\ el\ indice\ de\ cada\ dado\ de\ la\ SlotMachine\ donde\ exista\r\n
+comment10.params=
+comment10.target=int\ percentageWinningStatesAll()
+comment10.text=\r\nEste\ metodo\ calcula\ el\ porcentaje\ de\ victoria\ de\ toda\ las\ jugadas\ utilizando\ la\ maquina\ completa\r\n\r\n\ @return\ \ \ \ \ el\ porcentaje\ evaluado\r\n
+comment11.params=maquina
+comment11.target=int\ percentageWinningStatesN(int)
+comment11.text=\r\n\ Este\ metodo\ calcula\ el\ porcentaje\ de\ victoria\ de\ solo\ una\ maquina\ utilizando\ el\ numero\ de\ juegos\r\n\ realizados\ en\ esa\ maquina\ en\ especifico\r\n\r\n\ @param\ \ 1<\=maquina<\=casillas,\ la\ maquina\ que\ se\ quiere\ determinar\ el\ porcentaje\ de\ victorias\ \r\n\ @return\ \ el\ porcentaje\ de\ victoria\ evaluado\r\n
+comment12.params=
+comment12.target=void\ makeVisible()
+comment12.text=\r\n\ Este\ metodo\ hace\ visible\ la\ DiamondSlotMachine\r\n
+comment13.params=
+comment13.target=void\ makeInvisible()
+comment13.text=\r\n\ Este\ metodo\ hace\ invisible\ la\ DiamondSlotMachine\r\n
+comment14.params=vertical\ horizontal
+comment14.target=void\ move(int,\ int)
+comment14.text=\r\n\ Este\ metodo\ mueve\ el\ DiamondSlotMachine\r\n\r\n\ @param\ \ vertical,\ los\ pixeles\ que\ se\ mueve\ la\ DiamondSlotMachine\ verticalmente\ \ \r\n\ horizontal,\ los\ pixeles\ que\ se\ mueve\ la\ DiamondSlotMachine\ horizontalmente\r\n
+comment2.params=
+comment2.target=void\ presentacion()
+comment2.text=\r\n\ Este\ metodo\ crea\ cada\ \ SlotMachine\ y\ la\ ubica\ en\ su\ posicion\ correspondiente\r\n
+comment3.params=
+comment3.target=void\ pullAll()
+comment3.text=\r\n\ Permite\ jugar\ con\ todas\ las\ maquinas\r\n
+comment4.params=intentos
+comment4.target=void\ pullAllTimes(int)
+comment4.text=\r\n\ permite\ jugar\ n\ veces\ consecutivas\ con\ todas\ las\ maquinas\r\n\r\n\ @param\ \ 0<\=intentos\ el\ numero\ de\ veces\ que\ se\ desea\ jugar\r\n
+comment5.params=
+comment5.target=boolean\ isWinningStateAll()
+comment5.text=\r\n\ Este\ metodo\ evalua\ si\ al\ jugar\ con\ todas\ las\ maquinas\ se\ encuentran\ en\ un\ estado\ de\ victoria\ o\ no\r\n\r\n\ @return\ \ \ \ \ true\ si\ se\ encuentra\ en\ un\ estado\ de\ victoria,\ de\ lo\ contrario\ retorna\ false\r\n
+comment6.params=maquina
+comment6.target=void\ pullN(int)
+comment6.text=\r\n\ Este\ metodo\ permite\ jugar\ con\ una\ maquina\ especifica\ (linea\ horizontal\ de\ la\ DiamondSlotMachine)\r\n\r\n\ @param\ \ 2<\=maquina<\=casillas-1,\ es\ la\ maquina\ (fila)\ de\ la\ DiamondSlotMachine\ con\ la\ que\ se\ desea\ jugar\r\n
+comment7.params=maquina\ times
+comment7.target=void\ pullN(int,\ int)
+comment7.text=\r\n\ Este\ metodo\ permite\ jugar\ con\ una\ maquina\ especifica\ (linea\ horizontal\ de\ la\ DiamondSlotMachine)\ \r\n\ un\ numero\ consecutivo\ de\ veces\r\n\r\n\ @param\ \ 1<\=maquina<\=casillas,\ la\ maquina\ con\ la\ que\ se\ desea\ jugar\ \ \ \r\n\ \ \ \ \ \ \ \ \ \ 0<\=times,\ el\ numero\ de\ veces\ que\ se\ desea\ jugar\r\n
+comment8.params=maquina
+comment8.target=boolean\ isWinningStateN(int)
+comment8.text=\r\n\ Determina\ si\ una\ maquina\ especifica\ se\ encuentra\ en\ un\ estado\ de\ victoria\r\n\r\n\ @param\ \ 1<\=maquina<\=casillas,\ la\ maquina\ de\ la\ que\ se\ desea\ determinar\ el\ estado\r\n\ @return\ \ \ \ \ true\ si\ se\ encuentra\ en\ un\ estado\ de\ victoria,\ de\ lo\ contrario\ retorna\ false\r\n
+comment9.params=
+comment9.target=void\ reset()
+comment9.text=\r\n\ Este\ metodo\ restaura\ todos\ los\ valores\ del\ juego\ DiamondSlotMachine\r\n
+numComments=15
